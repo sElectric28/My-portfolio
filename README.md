@@ -1,3 +1,3 @@
 # My-portfolio
 
-[Check it out here!](reddit.com)
+[Check it out here!](https://selectric28.github.io/My-portfolio/)
