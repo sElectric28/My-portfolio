@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url(pexels-markusspiske-1089438.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-family: "Source Code Pro", monospace;
+}
+
+.header {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.main {
+    margin: 50px;
+    display: flex;
+}
+
+.card {
+  width: 450px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card img {
+  width: 450px;
+  height: 250px;
+  display: block;
+}
+
+.card-content {
+  padding: 25px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
+.card-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

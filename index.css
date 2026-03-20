@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url(pexels-markusspiske-1089438.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-family: "Source Code Pro", monospace;
+}
+
+.header {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.main {
+    color: white;
+    max-width: 1000px;
+    margin: 35.5px auto;
+    font-size: 32.5px;
+}
+
+
+
+.proy-button {
+
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 32.5px;
+    border-radius: 7.5px;
+}
+
+
+.button-center {
+    text-align: center;
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
